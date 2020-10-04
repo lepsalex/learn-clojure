@@ -13,10 +13,22 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Leiningen: cljfx:1.7.10" level="project" />
+    <orderEntry type="library" name="Leiningen: cljfx:1.7.10:jdk11" level="project" />
     <orderEntry type="library" name="Leiningen: clojure-complete:0.2.5" level="project" />
     <orderEntry type="library" name="Leiningen: nrepl:0.6.0" level="project" />
     <orderEntry type="library" name="Leiningen: org.clojure/clojure:1.10.1" level="project" />
     <orderEntry type="library" name="Leiningen: org.clojure/core.specs.alpha:0.2.44" level="project" />
     <orderEntry type="library" name="Leiningen: org.clojure/spec.alpha:0.2.176" level="project" />
+    <orderEntry type="library" name="Leiningen: org.openjfx/javafx-base:14" level="project" />
+    <orderEntry type="library" name="Leiningen: org.openjfx/javafx-base:14:win" level="project" />
+    <orderEntry type="library" name="Leiningen: org.openjfx/javafx-controls:14" level="project" />
+    <orderEntry type="library" name="Leiningen: org.openjfx/javafx-controls:14:win" level="project" />
+    <orderEntry type="library" name="Leiningen: org.openjfx/javafx-graphics:14" level="project" />
+    <orderEntry type="library" name="Leiningen: org.openjfx/javafx-graphics:14:win" level="project" />
+    <orderEntry type="library" name="Leiningen: org.openjfx/javafx-media:14" level="project" />
+    <orderEntry type="library" name="Leiningen: org.openjfx/javafx-media:14:win" level="project" />
+    <orderEntry type="library" name="Leiningen: org.openjfx/javafx-web:14" level="project" />
+    <orderEntry type="library" name="Leiningen: org.openjfx/javafx-web:14:win" level="project" />
   </component>
 </module>
