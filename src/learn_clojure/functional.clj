@@ -168,6 +168,21 @@
 (filter #(= "alex" %1) names)
 (filter #(= % "alex") names)
 
+;; Equivalent to: (fn [x] (+ 6 x))
+#(+ 6 %)
+
+;; Equivalent to: (fn [x y] (+ x y))
+#(+ %1 %2)
+
+;; Equivalent to: (fn [x y & zs] (println x y zs))
+#(println %1 %2 %&)
+
+;; DO NOT DO THIS
+#([%])
+
+;; Instead do this:
+#(vector %)
+
 ; one-liners are cool for these short calls
 (filter #(string/ends-with? % "x") names)
 
