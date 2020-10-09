@@ -17,3 +17,6 @@ pom.xml.asc
 *.iws
 *.iml
 *.ipr
+
+### Calva ###
+.calva
